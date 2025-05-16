@@ -21,7 +21,7 @@ nav {
 
 nav a {
     color: white;
-   text-decoration: none;
+    text-decoration: none;
     margin: 0 1rem;
     font-weight: bold;
 }
@@ -71,7 +71,7 @@ nav a:hover {
     justify-content: center;
     gap: 2rem;
     display: inline-block;
-    
+
 }
 
 .menu-item {
@@ -85,7 +85,7 @@ nav a:hover {
 
 .menu-item :hover {
     transform: scale(1.05);
-  }
+}
 
 .menu-item img {
     width: 100%;
@@ -108,4 +108,28 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+.about {
+    border-radius: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 40px;
+    margin: 40px;
+}
+
+.habout {
+    text-align: center;
+}
+
+.contact div {
+    margin-bottom: 20px;
+}
+
+.contact {
+    border-radius: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 40px;
+    margin: 40px;
 }
