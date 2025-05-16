@@ -5,3 +5,10 @@ document.querySelectorAll('nav a').forEach(anchor => {
         section.scrollIntoView({ behavior: 'smooth' });
     });
 });
+
+const click = document.getElementById("submit")
+
+function handleSubmit(){
+    alert("Your form has been successfully submitted")
+    click.innerText = "Submitted";
+}
